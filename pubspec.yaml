@@ -1,0 +1,42 @@
+name: weather_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  bloc: ^8.1.3
+  dio: ^5.4.0
+  dynamic_color: ^1.6.9
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.4
+  flutter_slidable: ^3.0.1
+  flutter_svg: ^2.0.9
+  geolocator: ^10.1.1
+  get_it: ^7.6.7
+  go_router: ^13.2.0
+  json_annotation: ^4.8.1
+  shared_preferences: ^2.2.2
+  smooth_page_indicator: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope.ttf
+  
+  assets:
+    - assets/icons/
